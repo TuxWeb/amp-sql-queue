@@ -63,13 +63,13 @@ Development dependencies:
 ## Installation
 
 ```bash
-composer require tuxweb/amp-sql-queue amphp/postgres
+composer require tuxweb-it/amp-sql-queue amphp/postgres
 ```
 
 For MySQL or MariaDB:
 
 ```bash
-composer require tuxweb/amp-sql-queue amphp/mysql
+composer require tuxweb-it/amp-sql-queue amphp/mysql
 ```
 
 For local development in this repository:

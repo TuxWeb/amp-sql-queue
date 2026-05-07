@@ -2,7 +2,7 @@
 
 ## Project Goal
 
-Build `tuxweb/amp-sql-queue`, an open source PHP 8.3+ library for a persistent, async, non-blocking SQL job queue compatible with PostgreSQL, MySQL, and MariaDB through one public API.
+Build `tuxweb-it/amp-sql-queue`, an open source PHP 8.3+ library for a persistent, async, non-blocking SQL job queue compatible with PostgreSQL, MySQL, and MariaDB through one public API.
 
 The library must use AMPHP and Revolt, avoid blocking database clients, and remain framework-agnostic.
 
