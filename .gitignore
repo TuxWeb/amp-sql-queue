@@ -1,0 +1,9 @@
+/.agents/
+/.codex/
+/.phpunit.cache/
+/vendor/
+composer.lock
+.DS_Store
+.env
+.env.*
+!.env.example

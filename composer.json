@@ -1,0 +1,46 @@
+{
+    "name": "tuxweb/amp-sql-queue",
+    "description": "Async non-blocking SQL job queue for AMPHP, PostgreSQL, MySQL, and MariaDB.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "amphp/amp": "^3.0",
+        "php": "^8.3",
+        "revolt/event-loop": "^1.0"
+    },
+    "require-dev": {
+        "amphp/mysql": "^3.0",
+        "amphp/postgres": "^2.0",
+        "phpunit/phpunit": "^11.0",
+        "phpstan/phpstan": "^1.12"
+    },
+    "suggest": {
+        "amphp/postgres": "Required to use AmpSqlQueue\\Storage\\PostgresQueueStorage.",
+        "amphp/mysql": "Required to use AmpSqlQueue\\Storage\\MysqlQueueStorage with MySQL or MariaDB."
+    },
+    "autoload": {
+        "psr-4": {
+            "AmpSqlQueue\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AmpSqlQueue\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse",
+        "check": [
+            "@test",
+            "@analyse"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable"
+}
