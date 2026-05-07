@@ -1,9 +1,17 @@
 {
     "name": "tuxweb-it/amp-sql-queue",
     "description": "Async non-blocking SQL job queue for AMPHP, PostgreSQL, MySQL, and MariaDB.",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Dino Ciuffetti",
+            "email": "dino@tuxweb.it",
+            "homepage": "https://www.tuxweb.it",
+            "role": "Developer, TuxWeb S.r.l."
+        }
+    ],
     "require": {
         "amphp/amp": "^3.1",
         "php": "^8.3",
